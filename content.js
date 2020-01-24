@@ -36,10 +36,10 @@ function ready() {
 	`;
 	
 	calendar.innerHTML = `<div class="NewCal_container">
-	<img class="cal_outline" src="https://github.com/MichaelWegnerCU/buffext/blob/master/CalOutline.png?raw=true" alt="Calender">
+	<img class="cal_outline" src="https://github.com/MichaelWegnerCU/buffext/blob/master/CalOutline.png?raw=true" alt="Calender" height="605px" width="423px" >
 	<div class="vl_control"></div>
 	<div class="hl_control"></div>
-	<img class="tiny_buff" src="https://github.com/MichaelWegnerCU/buffext/blob/master/BuffLogo.png?raw=true" alt="tinybuff" height="25px" width="50px">
+	<img class="tiny_buff" src="https://github.com/MichaelWegnerCU/buffext/blob/master/BuffLogo.png?raw=true" alt="tinybuff" height="30px" width="55px">
 	</div>
 	`;
 	calendar_top.innerHTML = ``;
