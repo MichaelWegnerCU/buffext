@@ -6,8 +6,10 @@ function ready() {
 	console.log("Here!");
 	var top5 = document.getElementsByTagName("app-holds-todos-card")[0];
 	var logo = document.getElementsByClassName("responsiveBuff")[0];
+	var calendar = document.getElementsByTagName("app-schedule")[0];
+	var calendar_top = document.getElementsByTagName("section")[2];
 	var courses= document.getElementsByClassName("schedule-clz");
-	console.log(courses[1].outerHTML);
+	console.log(courses[1].outerHTML.aria);
 	logo.src="https://github.com/MichaelWegnerCU/buffext/blob/master/newlogo.png?raw=true";
 	logo.height =250;
 	logo.width = 400;
@@ -28,6 +30,9 @@ function ready() {
 		</div>
 	</div> 
 	`;
+	
+	calendar.innerHTML = `I am going to put the calendar here`;
+	calendar_top.innerHTML = ``;
  	console.log(courses);
   }
 
