@@ -37,7 +37,19 @@ mat-sidenav-container{
 }
 .t5_link{
 	font-size:18px;
+	margin-left: 5px;
+	color: blue;
+}
+.size_control{
+	font-family: 'Font Awesome 5 Pro';
+    font-weight: 500;
 }
 .t5_icon{
 	height: 90px;
+}
+
+
+.responsiveBuff{
+	max-height: 60px !important;
+	max-width: 300px !important;
 }
