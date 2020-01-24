@@ -39,6 +39,7 @@ function ready() {
 	<img class="cal_outline" src="https://github.com/MichaelWegnerCU/buffext/blob/master/CalOutline.png?raw=true" alt="Calender">
 	<div class="vl_control"></div>
 	<div class="hl_control"></div>
+	<img class="tiny_buff" src="https://github.com/MichaelWegnerCU/buffext/blob/master/BuffLogo.png?raw=true" alt="tinybuff" height="25px" width="50px">
 	</div>
 	`;
 	calendar_top.innerHTML = ``;

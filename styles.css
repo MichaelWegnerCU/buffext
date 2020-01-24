@@ -84,4 +84,8 @@ mat-sidenav-container{
 	border-top: 2px dashed black; 
 	size: 6;
 }
-
+.tiny_buff{
+	position: absolute;
+	top: 345px;
+	left:266px;
+}
